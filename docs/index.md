@@ -3,13 +3,11 @@
 
 Benvenuto nella documentazione ufficiale di **Studio Immens**.
 
----
-
 <div class="md-hero">
   <h1>L'Infrastruttura Blindata<br/>Tutto-in-Uno</h1>
   <p>Documentazione tecnica, guide e riferimenti per l'ecosistema Studio Immens.</p>
-  <a href="guide/" class="md-button md-button--primary">Inizia qui</a>
-  <a href="prodotti/" class="md-button">Esplora i prodotti</a>
+  <a href="guide/index.md" class="md-button md-button--primary">Inizia qui</a>
+  <a href="prodotti/index.md" class="md-button">Esplora i prodotti</a>
 </div>
 
 ## Perche Studio Immens?
@@ -46,9 +44,9 @@ Benvenuto nella documentazione ufficiale di **Studio Immens**.
 
 | Sezione | Cosa trovi |
 |---|---|
-| :book: [Guida](guide/) | Introduzione, primi passi, best practices |
-| :computer: [Tecnica](tecnica/) | Stack, architettura, performance |
-| :package: [Prodotti](prodotti/) | Catalogo completo e specifiche |
+| :book: [Guida](guide/index.md) | Introduzione, primi passi, best practices |
+| :computer: [Tecnica](tecnica/index.md) | Stack, architettura, performance |
+| :package: [Prodotti](prodotti/index.md) | Catalogo completo e specifiche |
 
 ---
 
