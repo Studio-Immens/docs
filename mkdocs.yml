@@ -1,0 +1,41 @@
+
+site_name: Studio Immens Docs
+site_description: Documentazione tecnica e di prodotto Studio Immens
+site_url: https://studio-immens.github.io/docs/
+repo_url: https://github.com/Studio-Immens/docs
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  palette:
+    scheme: default
+    primary: indigo
+    accent: indigo
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+
+markdown_extensions:
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - pymdownx.emoji
+  - admonition
+  - footnotes
+  - toc:
+      permalink: true
+
+nav:
+  - Home: index.md
+  - Guida:
+    - Introduzione: guide/index.md
+  - Tecnica:
+    - Panoramica: tecnica/index.md
+  - Prodotti:
+    - Catalogo: prodotto/index.md
