@@ -4,32 +4,62 @@ site_description: Documentazione tecnica e di prodotto Studio Immens
 site_url: https://docs.studioimmens.com/
 repo_url: https://github.com/Studio-Immens/docs
 edit_uri: edit/main/docs/
+copyright: Copyright 2026 Studio Immens
 
 theme:
   name: material
+  custom_dir: null
   palette:
-    scheme: default
-    primary: indigo
-    accent: indigo
+    - scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-night
+        name: Passa alla modalita scura
+    - scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-sunny
+        name: Passa alla modalita chiara
+  font:
+    text: Inter
+    code: JetBrains Mono
+  logo: assets/logo.png
+  favicon: assets/logo.png
   features:
     - navigation.instant
     - navigation.tracking
     - navigation.tabs
     - navigation.sections
     - navigation.expand
+    - navigation.path
+    - navigation.top
     - search.suggest
     - search.highlight
     - content.code.copy
+    - content.tabs.link
+    - header.autohide
+
+extra_css:
+  - assets/extra.css
 
 markdown_extensions:
-  - pymdownx.highlight
+  - pymdownx.highlight:
+      anchor_linenums: true
   - pymdownx.superfences
-  - pymdownx.tabbed
-  - pymdownx.emoji
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - admonition
   - footnotes
   - toc:
       permalink: true
+  - attr_list
+  - md_in_html
+  - pymdownx.details
 
 nav:
   - Home: index.md

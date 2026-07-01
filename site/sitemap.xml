@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://studio-immens.github.io/docs/</loc>
+         <loc>https://docs.studioimmens.com/</loc>
          <lastmod>2026-07-01</lastmod>
     </url>
     <url>
-         <loc>https://studio-immens.github.io/docs/guide/</loc>
+         <loc>https://docs.studioimmens.com/guide/</loc>
          <lastmod>2026-07-01</lastmod>
     </url>
     <url>
-         <loc>https://studio-immens.github.io/docs/prodotto/</loc>
+         <loc>https://docs.studioimmens.com/prodotto/</loc>
          <lastmod>2026-07-01</lastmod>
     </url>
     <url>
-         <loc>https://studio-immens.github.io/docs/tecnica/</loc>
+         <loc>https://docs.studioimmens.com/tecnica/</loc>
          <lastmod>2026-07-01</lastmod>
     </url>
 </urlset>
