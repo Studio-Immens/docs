@@ -1,0 +1,1 @@
+cd /workspace && node fetch_repos.mjs 2>&1

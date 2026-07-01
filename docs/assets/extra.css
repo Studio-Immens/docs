@@ -1,11 +1,4 @@
 
-:root {
-  --si-blue: #1F9AFF;
-  --si-teal: #00C7B1;
-  --si-dark: #14191F;
-  --si-surface: #FAFBFC;
-}
-
 [data-md-color-scheme="slate"] {
   --md-primary-fg-color: #1F9AFF;
   --md-primary-fg-color--light: #4DB4FF;
@@ -34,88 +27,54 @@
   --md-accent-fg-color--transparent: rgba(0, 199, 177, 0.1);
 }
 
+/* Hide "Made with Material for MkDocs" and generator notice */
+.md-footer-meta .md-footer-meta__inner .md-copyright {
+  display: none;
+}
+.md-footer-meta .md-footer-meta__inner .md-footer-copyright {
+  visibility: hidden;
+}
+.md-footer-meta .md-footer-meta__inner .md-footer-copyright::after {
+  content: "Studio Immens \u00a9 2026";
+  visibility: visible;
+  display: block;
+  position: relative;
+  top: -1.2em;
+}
+.md-footer-meta .md-footer-meta__inner {
+  justify-content: center;
+}
+
 .md-header {
   background: linear-gradient(135deg, #14191F 0%, #1c2533 100%);
   border-bottom: 1px solid rgba(31, 154, 255, 0.15);
 }
-
 .md-header__title {
   font-weight: 700;
 }
-
-.md-hero {
-  background: linear-gradient(135deg, #14191F 0%, #1F9AFF 100%);
-  color: white;
-  padding: 3rem 0;
-  text-align: center;
-}
-
-.md-hero h1 {
-  font-size: 2.5rem;
-  font-weight: 800;
-  margin-bottom: 0.5rem;
-}
-
-.md-hero p {
-  font-size: 1.1rem;
-  opacity: 0.9;
-  max-width: 600px;
-  margin: 0 auto;
-}
-
 .md-typeset h1 {
   font-weight: 700;
   color: #1F9AFF;
 }
-
 .md-typeset h2 {
   font-weight: 600;
   border-bottom: 2px solid rgba(31, 154, 255, 0.15);
   padding-bottom: 0.3rem;
 }
-
-.md-typeset a {
-  color: #4DB4FF;
-}
-
-.md-typeset a:hover {
-  color: #00C7B1;
-}
-
-.md-nav__link--active {
-  color: #1F9AFF !important;
-}
-
+.md-typeset a { color: #4DB4FF; }
+.md-typeset a:hover { color: #00C7B1; }
+.md-nav__link--active { color: #1F9AFF !important; }
 .md-button--primary {
   background: linear-gradient(135deg, #1F9AFF, #00C7B1);
-  border: none;
-  color: white !important;
-  font-weight: 600;
-  border-radius: 8px;
-  padding: 0.6em 1.5em;
+  border: none; color: white !important; font-weight: 600;
+  border-radius: 8px; padding: 0.6em 1.5em;
 }
-
 .md-button--primary:hover {
   transform: translateY(-1px);
   box-shadow: 0 4px 15px rgba(31, 154, 255, 0.3);
 }
-
-.md-footer {
-  background: #0d1117;
-}
-
-.admonition {
-  border-radius: 8px;
-}
-
-.admonition.note {
-  border-color: #1F9AFF;
-}
-
-.admonition.tip {
-  border-color: #00C7B1;
-}
-
-.admonition.warning {
-  border-color: #f9d423;
-}
+.md-footer { background: #0d1117; }
+.admonition { border-radius: 8px; }
+.admonition.note { border-color: #1F9AFF; }
+.admonition.tip { border-color: #00C7B1; }
+.admonition.warning { border-color: #f9d423; }

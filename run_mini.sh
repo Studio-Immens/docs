@@ -1,0 +1,1 @@
+cd /workspace && node mini.js

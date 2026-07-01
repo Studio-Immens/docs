@@ -1,0 +1,1 @@
+node /workspace/deep_explore.js && cat /workspace/github_output.txt
