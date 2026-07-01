@@ -8,7 +8,6 @@ copyright: Copyright 2026 Studio Immens
 
 theme:
   name: material
-  custom_dir: null
   palette:
     - scheme: default
       primary: custom
