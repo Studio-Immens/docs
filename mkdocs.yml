@@ -63,7 +63,18 @@ nav:
   - Home: index.md
   - Guida:
     - Introduzione: guide/index.md
+    - Contribuire: guide/contribuire.md
+    - Pubblicare: guide/pubblicare.md
+    - Setup Dev: guide/setup-dev.md
   - Tecnica:
     - Panoramica: tecnica/index.md
+    - Architettura: tecnica/architettura.md
+    - Pattern: tecnica/pattern.md
+    - Tech Stack: tecnica/tech-stack.md
   - Prodotti:
     - Catalogo: prodotti/index.md
+    - Azzero: prodotti/azzero.md
+    - Capsule: prodotti/capsule.md
+    - Files: prodotti/files.md
+    - Soul: prodotti/soul.md
+    - Test: prodotti/test.md
