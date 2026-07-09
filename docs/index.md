@@ -21,7 +21,6 @@ Benvenuto nella documentazione tecnica dei plugin Studio Immens.
 | [MCP Fortress Pro](immens-mcp-fortress-pro/) | Approval workflow, OAuth, access points illimitati |
 | [ClassyBlocks Pro](classyblocks-pro/) | Animazioni, classi condizionali, template |
 | [Quick Order Pro](studio-immens-quick-order-pro/) | Ordini bulk, listini personalizzati |
-| [Studio Immens License](license/) | Sistema di licenze per plugin Pro |
 
 ---
 
