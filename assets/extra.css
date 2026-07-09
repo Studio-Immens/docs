@@ -1,0 +1,80 @@
+
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: #1F9AFF;
+  --md-primary-fg-color--light: #4DB4FF;
+  --md-primary-fg-color--dark: #0D7AD9;
+  --md-primary-bg-color: #ffffff;
+  --md-accent-fg-color: #00C7B1;
+  --md-accent-fg-color--transparent: rgba(0, 199, 177, 0.1);
+  --md-default-bg-color: #14191F;
+  --md-default-fg-color: #E4F1F9;
+  --md-default-fg-color--light: #9BA3AF;
+  --md-default-fg-color--lighter: #6B7280;
+  --md-typeset-color: #E4F1F9;
+  --md-typeset-a-color: #4DB4FF;
+  --md-code-bg-color: #1c2533;
+  --md-code-fg-color: #E4F1F9;
+  --md-footer-bg-color: #0d1117;
+  --md-footer-bg-color--dark: #0a0e12;
+}
+
+[data-md-color-scheme="default"] {
+  --md-primary-fg-color: #1F9AFF;
+  --md-primary-fg-color--light: #4DB4FF;
+  --md-primary-fg-color--dark: #0D7AD9;
+  --md-primary-bg-color: #ffffff;
+  --md-accent-fg-color: #00C7B1;
+  --md-accent-fg-color--transparent: rgba(0, 199, 177, 0.1);
+}
+
+/* Hide "Made with Material for MkDocs" and generator notice */
+.md-footer-meta .md-footer-meta__inner .md-copyright {
+  display: none;
+}
+.md-footer-meta .md-footer-meta__inner .md-footer-copyright {
+  visibility: hidden;
+}
+.md-footer-meta .md-footer-meta__inner .md-footer-copyright::after {
+  content: "Studio Immens \u00a9 2026";
+  visibility: visible;
+  display: block;
+  position: relative;
+  top: -1.2em;
+}
+.md-footer-meta .md-footer-meta__inner {
+  justify-content: center;
+}
+
+.md-header {
+  background: linear-gradient(135deg, #14191F 0%, #1c2533 100%);
+  border-bottom: 1px solid rgba(31, 154, 255, 0.15);
+}
+.md-header__title {
+  font-weight: 700;
+}
+.md-typeset h1 {
+  font-weight: 700;
+  color: #1F9AFF;
+}
+.md-typeset h2 {
+  font-weight: 600;
+  border-bottom: 2px solid rgba(31, 154, 255, 0.15);
+  padding-bottom: 0.3rem;
+}
+.md-typeset a { color: #4DB4FF; }
+.md-typeset a:hover { color: #00C7B1; }
+.md-nav__link--active { color: #1F9AFF !important; }
+.md-button--primary {
+  background: linear-gradient(135deg, #1F9AFF, #00C7B1);
+  border: none; color: white !important; font-weight: 600;
+  border-radius: 8px; padding: 0.6em 1.5em;
+}
+.md-button--primary:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 15px rgba(31, 154, 255, 0.3);
+}
+.md-footer { background: #0d1117; }
+.admonition { border-radius: 8px; }
+.admonition.note { border-color: #1F9AFF; }
+.admonition.tip { border-color: #00C7B1; }
+.admonition.warning { border-color: #f9d423; }
