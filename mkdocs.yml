@@ -66,10 +66,14 @@ nav:
     - ClassyBlocks: classyblocks/index.md
     - Quick Order: studio-immens-quick-order/index.md
     - Keyword Explorer (IKE): immens-keyword-explorer/index.md
-    - Immens Assistant: immens-assistant/index.md
-    - CSS Classes: studio-immens-css-classes/index.md
     - Immens Integration: immens-integration/index.md
+    - Primary Source: primary-source/index.md
+    - Fast Product Importer: si-fast-product-importer/index.md
+    - WooPrint Receipts: si-wooprint-receipts/index.md
+    - Immens CRM Core: immens-crm-core/index.md
   - Plugin Pro:
     - MCP Fortress Pro: immens-mcp-fortress-pro/index.md
     - ClassyBlocks Pro: classyblocks-pro/index.md
     - Quick Order Pro: studio-immens-quick-order-pro/index.md
+    - WooPrint Receipts Pro: si-wooprint-receipts-pro/index.md
+    - SIWP Reseller: siwp-reseller/index.md
