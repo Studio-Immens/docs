@@ -1,42 +1,28 @@
+# Studio Immens - Documentazione Plugin
 
-# Studio Immens Docs
+Benvenuto nella documentazione tecnica dei plugin Studio Immens.
 
-Benvenuto nella documentazione ufficiale di **Studio Immens**.
+## Plugin Free
 
-<div class="md-hero">
-  <h1>L'Infrastruttura Blindata<br/>Tutto-in-Uno</h1>
-  <p>Documentazione tecnica, guide e riferimenti per l'ecosistema Studio Immens.</p>
-  [Inizia qui](guide/index.md){ .md-button .md-button--primary }
-  [Esplora i prodotti](prodotti/index.md){ .md-button }
-</div>
+| Plugin | Descrizione |
+|--------|-------------|
+| [Immens MCP Fortress](immens-mcp-fortress/) | Connetti AI a WordPress via protocollo MCP |
+| [ClassyBlocks](classyblocks/) | Gestisci classi CSS nei blocchi Gutenberg |
+| [Quick Order](studio-immens-quick-order/) | Modulo ordine rapido per WooCommerce |
+| [Keyword Explorer (IKE)](immens-keyword-explorer/) | Keyword research e competitor analysis |
+| [Immens Assistant](immens-assistant/) | Assistente AI integrato in WordPress |
+| [CSS Classes](studio-immens-css-classes/) | Aggiungi classi CSS ai blocchi Gutenberg |
+| [Immens Integration](immens-integration/) | Plugin core di integrazione |
 
-## Perche Studio Immens?
+## Plugin Pro
 
-<div class="grid cards" markdown>
-
--   :rocket: **Performance**
-    Server VPS OVH dedicato. TTFB <200ms garantito. Core Web Vitals sempre verdi.
--   :lock: **Sicurezza**
-    Dati in UE, GDPR garantito, backup giornalieri retention 30gg.
--   :zap: **Automazione**
-    Manutenzione 24/7, aggiornamenti automatici, monitoraggio real-time.
--   :toolbox: **Ecosistema Nativo**
-    Primary Source, ClassyBlocks, Immens CRM, MCP Fortress. Zero conflitti.
--   :chart_with_upwards_trend: **Performance Provata**
-    100/100 Lighthouse. Velocita certificata.
--   :euro: **Un Canone Unico**
-    Niente 5 abbonamenti separati. Un prezzo, tutto incluso.
-
-</div>
-
-## Inizia Velocemente
-
-| Sezione | Cosa trovi |
-|---|---|
-| :book: [Guida](guide/index.md) | Introduzione, primi passi, best practices |
-| :computer: [Tecnica](tecnica/index.md) | Stack, architettura, performance |
-| :package: [Prodotti](prodotti/index.md) | Catalogo completo e specifiche |
+| Plugin | Descrizione |
+|--------|-------------|
+| [MCP Fortress Pro](immens-mcp-fortress-pro/) | Approval workflow, OAuth, access points illimitati |
+| [ClassyBlocks Pro](classyblocks-pro/) | Animazioni, classi condizionali, template |
+| [Quick Order Pro](studio-immens-quick-order-pro/) | Ordini bulk, listini personalizzati |
+| [Studio Immens License](license/) | Sistema di licenze per plugin Pro |
 
 ---
 
-> **Studio Immens** &mdash; Software House d'Eliete. Scriviamo codice, gestiamo server, sviluppiamo plugin.
+*Ultimo aggiornamento: Luglio 2026*

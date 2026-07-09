@@ -61,20 +61,16 @@ markdown_extensions:
 
 nav:
   - Home: index.md
-  - Guida:
-    - Introduzione: guide/index.md
-    - Contribuire: guide/contribuire.md
-    - Pubblicare: guide/pubblicare.md
-    - Setup Dev: guide/setup-dev.md
-  - Tecnica:
-    - Panoramica: tecnica/index.md
-    - Architettura: tecnica/architettura.md
-    - Pattern: tecnica/pattern.md
-    - Tech Stack: tecnica/tech-stack.md
-  - Prodotti:
-    - Catalogo: prodotti/index.md
-    - Azzero: prodotti/azzero.md
-    - Capsule: prodotti/capsule.md
-    - Files: prodotti/files.md
-    - Soul: prodotti/soul.md
-    - Test: prodotti/test.md
+  - Plugin Free:
+    - Immens MCP Fortress: immens-mcp-fortress/index.md
+    - ClassyBlocks: classyblocks/index.md
+    - Quick Order: studio-immens-quick-order/index.md
+    - Keyword Explorer (IKE): immens-keyword-explorer/index.md
+    - Immens Assistant: immens-assistant/index.md
+    - CSS Classes: studio-immens-css-classes/index.md
+    - Immens Integration: immens-integration/index.md
+  - Plugin Pro:
+    - MCP Fortress Pro: immens-mcp-fortress-pro/index.md
+    - ClassyBlocks Pro: classyblocks-pro/index.md
+    - Quick Order Pro: studio-immens-quick-order-pro/index.md
+    - License: license/index.md
