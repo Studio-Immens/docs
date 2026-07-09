@@ -2,13 +2,14 @@
 
 ## Installazione
 
-1. Cerca "WooPrint Receipts" su **Plugin > Aggiungi nuovo**
-2. Installa e attiva
+1. **Da WordPress**: Vai su **Plugin > Aggiungi nuovo** e cerca "WooPrint Receipts"
+2. **Manuale**: Carica il file ZIP su **Plugin > Aggiungi nuovo > Carica plugin**
+3. Attiva il plugin
 
-## Requisiti
+### Requisiti
 
-- WooCommerce 7.0+
+- WooCommerce 6.0+
 
 ---
 
-[Torna alla panoramica](index.md) | [Configurazione](configurazione.md) | [API](api.md)
+[Torna alla panoramica](index.md) | [Configurazione](configurazione.md)

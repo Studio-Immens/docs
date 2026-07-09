@@ -2,14 +2,16 @@
 
 ## Installazione
 
-1. Cerca "Immens Integration" su **Plugin > Aggiungi nuovo**
-2. Installa e attiva
+1. **Attiva la licenza**: Vai su **Immens > License** e inserisci la license key
+2. Carica il file ZIP su **Plugin > Aggiungi nuovo > Carica plugin**
+3. Attiva il plugin
 
-## Requisiti
+### Primo avvio
 
-- WordPress 5.8+
-- PHP 7.4+
+1. Vai su **Immens > Dashboard**
+2. Configura gli AI providers in **Immens > AI Settings**
+3. Attiva i moduli desiderati in **Immens > Moduli**
 
 ---
 
-[Torna alla panoramica](index.md) | [Configurazione](configurazione.md) | [API](api.md)
+[Torna alla panoramica](index.md) | [Configurazione](configurazione.md)

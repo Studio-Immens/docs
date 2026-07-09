@@ -1,29 +1,39 @@
 # MCP Fortress Pro - Configurazione
 
-## Approval Workflow
+## Configurazione
 
-Le operazioni di scrittura richiedono approvazione via Telegram:
+### Feature Flag
 
-1. Collega il tuo bot Telegram
-2. Configura il canale di notifica
-3. Ogni operazione sensibile invia una richiesta di approvazione
+Vai su **MCP Fortress > Licenza Pro** per vedere lo stato delle feature:
 
-## OAuth
+| Feature | Stato |
+|---------|-------|
+| Unlimited Access Points | Attivo/Disattivo |
+| Gutenberg Block-Level | Attivo/Disattivo |
+| SSE Transport | Attivo/Disattivo |
+| Change History | Attivo/Disattivo |
+| Integration Tools | Attivo/Disattivo |
 
-Supporto OAuth 2.0 per integrazioni esterne:
+### Change History
 
-1. Vai su **MCP Fortress > OAuth**
-2. Crea una nuova applicazione
-3. Configura redirect URI e scopes
+1. Vai su **MCP Fortress > Change History**
+2. Ogni operazione AI mostra: tool usato, parametri, stato, IP, timestamp
+3. Le operazioni di scrittura hanno snapshot "prima/dopo"
+4. Puoi ripristinare versioni precedenti
 
-## Access Points Illimitati
+### Block-Level Editing
 
-A differenza della versione free, puoi creare quanti access points vuoi, ognuno con:
-- Permessi specifici
-- IP whitelist dedicata
-- Rate limiting personalizzato
-- Audit log separato
+Il Pro permette agli AI agent di manipolare i blocchi Gutenberg singolarmente:
+- **Parse**: leggere la struttura blocchi di un post
+- **Add**: aggiungere nuovi blocchi in posizioni specifiche
+- **Remove**: rimuovere blocchi per ID o tipo
+- **Reorder**: riordinare i blocchi
+- **Update**: modificare attributi di blocchi esistenti
+
+### HTML-to-Blocks
+
+Quando un AI crea un post via REST API con `imf_convert_to_blocks=true`, l'HTML viene automaticamente convertito in blocchi Gutenberg rilevando il builder (Greenshift, Stackable, o Core).
 
 ---
 
-[Torna alla panoramica](index.md) | [Installazione](installazione.md) | [API](api.md)
+[Torna alla panoramica](index.md) | [Installazione](installazione.md)

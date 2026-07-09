@@ -2,15 +2,16 @@
 
 ## Installazione
 
-1. Vai su **Plugin > Aggiungi nuovo > Carica plugin**
-2. Carica il file ZIP
-3. Attiva
+1. **Attiva la licenza**: Vai su **Immens > License** e inserisci la license key
+2. **Installa il plugin**: Carica il file ZIP su **Plugin > Aggiungi nuovo > Carica plugin**
+3. Attiva il plugin e segui il wizard di onboarding
 
-## Primi Passi
+### Requisiti
 
-1. Vai su **CRM > Settings**
-2. Configura le pipeline di vendita
-3. Importa i contatti esistenti
+- PHP 7.4+
+- WordPress 5.8+
+- Action Scheduler (incluso o via WP Cron)
+- License key valida
 
 ---
 

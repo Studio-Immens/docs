@@ -1,14 +1,16 @@
-# Keyword Explorer (IKE) - Installazione
+# Immens Keyword Explorer (IKE) - Installazione
 
 ## Installazione
 
-1. Cerca "Immens Keyword Explorer" su **Plugin > Aggiungi nuovo**
-2. Installa e attiva
+1. **Attiva la licenza**: Vai su **Immens > License** e inserisci la license key
+2. Carica il file ZIP su **Plugin > Aggiungi nuovo > Carica plugin**
+3. Attiva il plugin
 
-## Requisiti
+### Requisiti
 
 - Immens Integration (plugin core)
+- License key valida
 
 ---
 
-[Torna alla panoramica](index.md) | [Configurazione](configurazione.md) | [API](api.md)
+[Torna alla panoramica](index.md) | [Configurazione](configurazione.md)

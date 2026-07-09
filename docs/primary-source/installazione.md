@@ -2,12 +2,10 @@
 
 ## Installazione
 
-1. Scarica il plugin
-2. Carica su **Plugin > Aggiungi nuovo > Carica plugin**
-3. Attiva
-
-Non richiede configurazione iniziale. Funziona come dipendenza per altri plugin.
+1. Carica il file ZIP su **Plugin > Aggiungi nuovo > Carica plugin**
+2. Attiva il plugin
+3. Configura la modalità nelle impostazioni
 
 ---
 
-[Torna alla panoramica](index.md) | [Configurazione](configurazione.md) | [API](api.md)
+[Torna alla panoramica](index.md) | [Configurazione](configurazione.md)

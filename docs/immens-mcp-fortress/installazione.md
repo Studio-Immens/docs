@@ -2,20 +2,18 @@
 
 ## Installazione
 
-1. **Scarica il plugin** da [WordPress.org](https://wordpress.org/plugins/immens-mcp-fortress/) o carica lo ZIP manualmente
-2. Vai su **Plugin > Aggiungi nuovo > Carica plugin**
+1. **Da WordPress.org**: Vai su **Plugin > Aggiungi nuovo** e cerca "Immens MCP Fortress"
+2. **Manuale**: Scarica da [WordPress.org](https://wordpress.org/plugins/immens-mcp-fortress/) e carica lo ZIP
 3. Attiva il plugin
 
-## Requisiti
+### Primo Access Point
 
-- WordPress 6.0+
-- PHP 7.4+
-- Una connessione AI (Claude, ChatGPT, OpenClaw, ecc.)
-
-## Verifica
-
-Dopo l'attivazione, vai su **MCP Fortress > Dashboard** e verifica che lo stato sia "Pronto".
+1. Vai su **MCP Fortress > Access Points**
+2. Clicca **Aggiungi nuovo**
+3. Dai un nome (es. "Claude", "OpenClaw")
+4. Seleziona i permessi (Read-only o Full)
+5. **Salva subito** l'API key mostrata (non sarà più visibile dopo)
 
 ---
 
-[Torna alla panoramica](index.md) | [Configurazione](configurazione.md) | [API](api.md)
+[Torna alla panoramica](index.md) | [Configurazione](configurazione.md) | [API](api.md) | [Sicurezza](sicurezza.md)

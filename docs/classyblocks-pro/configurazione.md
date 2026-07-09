@@ -1,32 +1,36 @@
 # ClassyBlocks Pro - Configurazione
 
-## Animazioni
+## Configurazione
 
-Aggiungi animazioni ai blocchi Gutenberg:
+### Animazioni
 
-- **Scroll Reveal**: elementi appaiono durante lo scroll
-- **Fade In/Out**: dissolvenza
-- **Slide Up/Down/Left/Right**: scorrimento
-- **Zoom In/Out**: ingrandimento/riduzione
-- **Rotate**: rotazione
-- **Bounce**: rimbalzo
+1. Vai su **CSS Classes > Animazioni PRO**
+2. Sfoglia le animazioni per categoria (scroll, attention, text, hover...)
+3. Clicca su un'animazione per vederne l'anteprima
+4. Assegna animazioni ai preset pack
 
-## Classi Condizionali
+### Usare le animazioni in Gutenberg
 
-Mostra classi solo in determinate condizioni:
-- Utente loggato / non loggato
-- Dispositivo mobile / desktop / tablet
-- Pagina specifica / categoria
-- Data/ora specifica
+1. Apri un post/pagina con Gutenberg
+2. Seleziona un blocco
+3. Nella sidebar, apri il tab **Animazioni** (accanto a "Classi")
+4. Scegli un'animazione e configura i parametri
 
-## Template
+### Override per-blocco
 
-Crea combinazioni di classi riutilizzabili e applicale con un click.
+Puoi personalizzare per ogni blocco:
+- **Durata** (es. 0.5s, 2s)
+- **Easing** (ease, ease-in, ease-out, linear, custom)
+- **Delay** (ritardo prima dell'animazione)
+- **Iterazioni** (1, 2, infinite)
+- **Direzione** (normal, reverse, alternate)
 
-## Page Builder
+### Pack Manager
 
-Supporto per Elementor e WPBakery.
+1. Vai su **CSS Classes > Pack PRO**
+2. Importa pack JSON con animazioni + classi CSS
+3. Esporta pack per backup o condivisione
 
 ---
 
-[Torna alla panoramica](index.md) | [Installazione](installazione.md) | [API](api.md)
+[Torna alla panoramica](index.md) | [Installazione](installazione.md)

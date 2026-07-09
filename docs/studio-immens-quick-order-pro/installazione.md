@@ -2,14 +2,16 @@
 
 ## Installazione
 
-1. Attiva la license key
-2. Installa il plugin Pro
-3. Verifica su **WooCommerce > Quick Order**
+1. **Attiva la licenza**: Vai su **Immens > License**
+2. Carica il file ZIP su **Plugin > Aggiungi nuovo > Carica plugin**
+3. Le funzionalità Pro appaiono automaticamente nelle impostazioni Quick Order
 
-## Requisiti
+### Requisiti
 
-- Quick Order (free) installato
+- Quick Order (free) installato e attivo
+- WooCommerce
+- License key valida
 
 ---
 
-[Torna alla panoramica](index.md) | [Configurazione](configurazione.md) | [API](api.md)
+[Torna alla panoramica](index.md) | [Configurazione](configurazione.md)

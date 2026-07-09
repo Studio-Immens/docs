@@ -1,33 +1,40 @@
 # ClassyBlocks - Configurazione
 
-## Framework Supportati
+## Configurazione
 
-| Framework | Tipo |
-|-----------|------|
-| Tailwind CSS | Utility-first, bundle locale |
-| Bootstrap | Classi utility |
-| Materialize | Material Design |
-| Bulma | Flexbox puro |
-| UIkit | Componenti robusti |
-| Spectre | Minimalista |
-| PureCSS | Leggero |
-| Semantic | Classi semantiche |
+### Framework CSS
 
-## Utilizzo
+Vai su **CSS Classes > Impostazioni** per abilitare/disabilitare i framework:
 
-1. Vai su **CSS Classes** nel menu WordPress
-2. Crea una classe con nome e proprieta'
-3. Apri un blocco Gutenberg
-4. Trova il pannello ClassyBlocks nella sidebar
-5. Seleziona le classi da applicare
+| Framework | Uso consigliato |
+|-----------|-----------------|
+| Bootstrap | Siti che già usano Bootstrap |
+| Tailwind CSS | Utility-first, bundle via CDN |
+| Bulma | Flexbox puro, leggero |
+| UIkit | Componenti completi |
+| Materialize | Design Material |
+| Pure CSS | Minimalista |
+| Spectre | Micro-framework |
+| Semantic UI | Classi semantiche |
+| Foundation | Framework completo |
 
-## Caratteristiche
+Ogni framework può essere attivato separatamente per Editor, Admin, e Frontend.
 
-- **Live Preview**: vedi il risultato in tempo reale
-- **Tailwind Locale**: nessuna dipendenza CDN
-- **CSS Sanitization**: sicurezza integrata
-- **Zero Performance Impact**: non carica risorse extra sul frontend
+### Creare una classe
+
+1. Vai su **CSS Classes > Dashboard**
+2. Clicca **Aggiungi nuova classe**
+3. Inserisci nome e proprietà CSS (es. `color: red; font-size: 18px;`)
+4. Aggiungi eventuali pseudo-stati (:hover, :focus, :active, :visited)
+5. Salva e assegna un pack
+
+### Usare le classi in Gutenberg
+
+1. Apri un post/pagina con Gutenberg
+2. Seleziona un blocco
+3. Nella sidebar, apri il pannello **ClassyBlocks**
+4. Spunta le classi da applicare (anteprima live inclusa)
 
 ---
 
-[Torna alla panoramica](index.md) | [Installazione](installazione.md) | [API](api.md)
+[Torna alla panoramica](index.md) | [Installazione](installazione.md)

@@ -1,25 +1,32 @@
 # Fast Product Importer - Configurazione
 
-## Utilizzo
+## Configurazione
 
-1. Vai su **WooCommerce > Fast Product Importer**
-2. Carica il file CSV
-3. Mappa le colonne
-4. Avvia importazione
+1. Vai su **Fast Product Importer > Impostazioni**
+2. Configura le opzioni generali:
+   - **Prefisso SKU** (es. PROD-)
+   - **Stock predefinito** (es. 10)
+   - **Stato prodotto** (publish/draft/pending)
+   - **Lingua predefinita** (IT/EN)
 
-## Formato CSV
+### AI Providers
 
-```
-name,price,description,sku,stock,categories,images
-Prodotto esempio,19.99,Descrizione qui,SKU001,100,Categoria1,https://esempio.it/immagine.jpg
-```
+1. Vai su **Fast Product Importer > AI Settings**
+2. Inserisci le API key dei provider desiderati:
+   - **Google Gemini** (gratuito, consigliato)
+   - **OpenAI** (GPT-4, GPT-3.5)
+   - **Anthropic Claude**
+   - **OpenRouter** (multi-modello)
+3. Seleziona il modello e il livello di creatività (0.0 - 1.0)
 
-## Opzioni
+### Importare prodotti
 
-- **Elaborazione background**: non blocca il browser
-- **Log dettagliato**: ogni importazione ha un log completo
-- **Prodotti variabili**: supporta attributi e variazioni
+1. Vai su **Fast Product Importer > Cerca Prodotti**
+2. Cerca per nome o categoria
+3. Seleziona i prodotti desiderati
+4. Clicca **Importa**
+5. In alternativa, usa **AI Generate** per creare prodotti via AI
 
 ---
 
-[Torna alla panoramica](index.md) | [Installazione](installazione.md) | [API](api.md)
+[Torna alla panoramica](index.md) | [Installazione](installazione.md)

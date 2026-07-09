@@ -1,36 +1,34 @@
 # Immens Integration - Configurazione
 
-## AI Providers
+## Configurazione
 
-Configura i tuoi provider AI:
-- OpenAI (ChatGPT, GPT-4)
-- Anthropic (Claude)
-- Google (Gemini)
-- Ollama (modelli locali)
+### AI Providers
 
-## Moduli
+1. Vai su **Immens > AI Settings**
+2. Inserisci le API key per i provider che vuoi usare:
+   - **OpenAI** (GPT-4, GPT-4o-mini)
+   - **Anthropic Claude** (Opus, Sonnet, Haiku)
+   - **Google Gemini** (Flash, Pro)
+   - **OpenRouter** (accesso a 100+ modelli)
+   - **Perplexity** (ricerca con fonti)
 
-Attiva/disattiva singoli moduli:
-- MCP Fortress
-- Keyword Explorer
-- CRM Core
-- Quick Order
-- WooPrint Receipts
+### Moduli
 
-## Webhook
+Vai su **Immens > Moduli** per attivare/disattivare:
 
-Crea webhook per eventi specifici:
-- Nuovo ordine
-- Nuovo contatto CRM
-- Cambio stato pipeline
+- **AutoArticle** - Generazione automatica articoli
+- **Newsletter AI** - Newsletter con AI
+- **QR Code Manager** - Generazione QR code
+- **Review Booster** - Automazione richieste recensioni
+- **Uptime Monitor** - Monitoraggio disponibilità sito
+- **Booking Widget** - Prenotazione appuntamenti
+- **Lead Magnet Creator** - Creazione lead magnet
+- **AI Image Generator** - Generazione immagini AI
 
-## Notifiche
+### Webhook
 
-Configura canali di notifica:
-- Email
-- Telegram
-- Slack
+Configura webhook in entrata e uscita su **Immens > Webhook** per integrazioni con servizi esterni.
 
 ---
 
-[Torna alla panoramica](index.md) | [Installazione](installazione.md) | [API](api.md)
+[Torna alla panoramica](index.md) | [Installazione](installazione.md)

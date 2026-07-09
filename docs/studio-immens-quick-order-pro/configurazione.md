@@ -1,28 +1,21 @@
 # Quick Order Pro - Configurazione
 
-## Ordini Bulk
+## Configurazione
 
-Carica file Excel/CSV con centinaia di prodotti:
+1. Vai su **Quick Order > Impostazioni**
+2. Troverai nuove opzioni:
+   - **Timer ordini**: durata in minuti e validità
+   - **Refresh automatico tavoli**: intervallo in millisecondi
+   - **Statistiche**: dashboard con revenue e ordini
 
-```
-SKU;Quantita';Prezzo
-PROD-001;10;12.50
-PROD-002;5;8.00
-```
+### REST API
 
-## Listini Personalizzati
-
-Crea listini prezzi diversi per:
-
-- Clienti wholesale
-- Rivenditori
-- Utenti registrati
-- Gruppi specifici
-
-## Integrazione Fornitori
-
-Collega i tuoi fornitori per il dropshipping automatico.
+Il Pro espone API REST per:
+- Prodotti (catalogo completo)
+- Ordini (creazione, gestione, storico)
+- Statistiche (reporting)
+- Tavoli (gestione multi-area)
 
 ---
 
-[Torna alla panoramica](index.md) | [Installazione](installazione.md) | [API](api.md)
+[Torna alla panoramica](index.md) | [Installazione](installazione.md)

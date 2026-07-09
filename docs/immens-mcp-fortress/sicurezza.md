@@ -10,7 +10,7 @@ Crea access points con permessi granulari:
 
 ## IP Whitelist
 
-Limita l'accesso a specifici IP:
+Limita l'accesso a specifici IP o subnet in notazione CIDR:
 
 ```
 192.168.1.0/24
@@ -18,9 +18,24 @@ Limita l'accesso a specifici IP:
 203.0.113.0/24
 ```
 
-## Auditing
+## Rate Limiting
 
-Tutte le operazioni sono registrate nel log audit con timestamp, IP, tool usato e parametri.
+Ogni access point ha un limite configurabile di richieste al minuto (default: 60).
+
+## Autenticazione
+
+- **Bearer Token**: API key formato `imf_` + 64 hex char nell'header Authorization
+- **URL Parameter**: API key come parametro URL `?api_key=...`
+- **OAuth 2.1 PKCE**: per applicazioni third-party
+
+## Audit Log
+
+Tutte le operazioni MCP sono registrate con:
+- Tool utilizzato
+- Argomenti della chiamata
+- IP di origine
+- Stato (successo/errore)
+- Timestamp
 
 ---
 

@@ -1,26 +1,41 @@
 # SIWP Reseller - Configurazione
 
-## Dashboard
+## Configurazione
 
-Il pannello principale mostra:
-- Clienti attivi
-- Licenze assegnate
-- Fatturato mensile
-- Rinnovi in scadenza
+### Impostazioni Azienda
 
-## Gestione Clienti
+1. Vai su **SIWP Reseller > Impostazioni**
+2. Inserisci i dati aziendali:
+   - Ragione sociale, partita IVA, indirizzo
+   - Codice SDI, PEC (per fatturazione elettronica)
+   - Regime fiscale (RF01, RF19, ecc.)
 
-1. Aggiungi un nuovo cliente
-2. Assegna licenze plugin
-3. Il cliente riceve email con credenziali
+### Gestione Clienti
 
-## API
+1. Vai su **SIWP Reseller > Contatti**
+2. Aggiungi clienti con:
+   - Dati anagrafici e fiscali
+   - Categoria (cliente, lead, fornitore, partner)
+   - Pipeline e stage
+   - Prezzo personalizzato (standard/base/premium)
 
-```http
-GET /wp-json/siwp-reseller/v1/licenses
-POST /wp-json/siwp-reseller/v1/licenses/assign
-POST /wp-json/siwp-reseller/v1/licenses/revoke
+### Preventivi e Fatture
+
+1. **Crea preventivo**: vai su Preventivi > Nuovo, seleziona cliente e prodotti
+2. **Converti**: da preventivo a ordine WooCommerce o fattura con un click
+3. **Fattura elettronica**: genera XML FatturaPA e invia via SDI
+
+### DDT
+
+Crea Documenti di Trasporto da ordini o autonomamente, con tracking carrier e gestione scarico magazzino.
+
+### Dashboard Rivenditore
+
+Il portale self-service si inserisce con lo shortcode:
 ```
+[siwp_reseller_dashboard]
+```
+I tuoi clienti possono vedere storico ordini, fatture e DDT.
 
 ---
 

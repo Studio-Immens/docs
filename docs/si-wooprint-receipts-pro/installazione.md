@@ -2,13 +2,15 @@
 
 ## Installazione
 
-1. Attiva license key
-2. Installa WooPrint Receipts Pro
-3. Configura su **WooCommerce > WooPrint Receipts**
+1. **Attiva la licenza**: Vai su **Immens > License** e inserisci la license key
+2. Carica il file ZIP su **Plugin > Aggiungi nuovo > Carica plugin**
+3. Le funzionalità Pro appaiono nelle impostazioni WooPrint Receipts
 
-## Requisiti
+### Requisiti
 
-- WooPrint Receipts (free) installato
+- WooPrint Receipts (free) installato e attivo
+- WooCommerce 6.0+
+- License key valida
 
 ---
 

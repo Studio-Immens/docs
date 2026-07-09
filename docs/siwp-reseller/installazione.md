@@ -2,13 +2,14 @@
 
 ## Installazione
 
-1. Attiva license key
-2. Installa SIWP Reseller
-3. Vai su **SIWP Reseller > Dashboard**
+1. **Attiva la licenza**: Vai su **Immens > License** e inserisci la license key
+2. Carica il file ZIP su **Plugin > Aggiungi nuovo > Carica plugin**
+3. Attiva il plugin
 
-## Requisiti
+### Requisiti
 
-- Immens Integration
+- WooCommerce 5.0+
+- PHP 7.4+
 - License key valida
 
 ---

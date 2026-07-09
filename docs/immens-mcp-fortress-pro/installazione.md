@@ -2,15 +2,15 @@
 
 ## Installazione
 
-1. Attiva la **license key** su **Immens > License**
-2. Installa il plugin Pro (sovrascrive la versione free)
-3. Verifica su **MCP Fortress > Dashboard**
+1. **Attiva la licenza**: Vai su **MCP Fortress > Licenza Pro** e inserisci la license key
+2. Carica il file ZIP su **Plugin > Aggiungi nuovo > Carica plugin**
+3. Le funzionalità Pro si attivano automaticamente
 
-## Requisiti
+### Requisiti
 
-- Immens MCP Fortress (free) installato
+- Immens MCP Fortress (free) installato e attivo
 - License key valida
 
 ---
 
-[Torna alla panoramica](index.md) | [Configurazione](configurazione.md) | [API](api.md)
+[Torna alla panoramica](index.md) | [Configurazione](configurazione.md)
