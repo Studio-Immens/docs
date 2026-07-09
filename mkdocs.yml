@@ -61,67 +61,61 @@ markdown_extensions:
 
 nav:
   - Home: index.md
-
-  - MCP & AI:
-    - Immens MCP Fortress:
-      - Panoramica: immens-mcp-fortress/index.md
-      - Installazione: immens-mcp-fortress/installazione.md
-      - Configurazione: immens-mcp-fortress/configurazione.md
-      - API: immens-mcp-fortress/api.md
-      - Sicurezza: immens-mcp-fortress/sicurezza.md
-    - MCP Fortress Pro:
-      - Panoramica: immens-mcp-fortress-pro/index.md
-      - Installazione: immens-mcp-fortress-pro/installazione.md
-      - Configurazione: immens-mcp-fortress-pro/configurazione.md
-    - Primary Source:
-      - Panoramica: primary-source/index.md
-      - Installazione: primary-source/installazione.md
-      - Configurazione: primary-source/configurazione.md
-  - WooCommerce:
-    - Quick Order:
-      - Panoramica: studio-immens-quick-order/index.md
-      - Installazione: studio-immens-quick-order/installazione.md
-      - Configurazione: studio-immens-quick-order/configurazione.md
-    - Quick Order Pro:
-      - Panoramica: studio-immens-quick-order-pro/index.md
-      - Installazione: studio-immens-quick-order-pro/installazione.md
-      - Configurazione: studio-immens-quick-order-pro/configurazione.md
-    - Fast Product Importer:
-      - Panoramica: si-fast-product-importer/index.md
-      - Installazione: si-fast-product-importer/installazione.md
-      - Configurazione: si-fast-product-importer/configurazione.md
-    - WooPrint Receipts:
-      - Panoramica: si-wooprint-receipts/index.md
-      - Installazione: si-wooprint-receipts/installazione.md
-      - Configurazione: si-wooprint-receipts/configurazione.md
-    - WooPrint Receipts Pro:
-      - Panoramica: si-wooprint-receipts-pro/index.md
-      - Installazione: si-wooprint-receipts-pro/installazione.md
-      - Configurazione: si-wooprint-receipts-pro/configurazione.md
-  - Design & CSS:
-    - ClassyBlocks:
-      - Panoramica: classyblocks/index.md
-      - Installazione: classyblocks/installazione.md
-      - Configurazione: classyblocks/configurazione.md
-    - ClassyBlocks Pro:
-      - Panoramica: classyblocks-pro/index.md
-      - Installazione: classyblocks-pro/installazione.md
-      - Configurazione: classyblocks-pro/configurazione.md
-  - CRM & Marketing:
-    - Immens CRM Core:
-      - Panoramica: immens-crm-core/index.md
-      - Installazione: immens-crm-core/installazione.md
-      - Configurazione: immens-crm-core/configurazione.md
-    - Keyword Explorer (IKE):
-      - Panoramica: immens-keyword-explorer/index.md
-      - Installazione: immens-keyword-explorer/installazione.md
-      - Configurazione: immens-keyword-explorer/configurazione.md
-  - Infrastruttura:
-    - Immens Integration:
-      - Panoramica: immens-integration/index.md
-      - Installazione: immens-integration/installazione.md
-      - Configurazione: immens-integration/configurazione.md
-    - SIWP Reseller:
-      - Panoramica: siwp-reseller/index.md
-      - Installazione: siwp-reseller/installazione.md
-      - Configurazione: siwp-reseller/configurazione.md
+  - ClassyBlocks:
+    - Panoramica: classyblocks/index.md
+    - Installazione: classyblocks/installazione.md
+    - Configurazione: classyblocks/configurazione.md
+  - ClassyBlocks Pro:
+    - Panoramica: classyblocks-pro/index.md
+    - Installazione: classyblocks-pro/installazione.md
+    - Configurazione: classyblocks-pro/configurazione.md
+  - Fast Product Importer:
+    - Panoramica: si-fast-product-importer/index.md
+    - Installazione: si-fast-product-importer/installazione.md
+    - Configurazione: si-fast-product-importer/configurazione.md
+  - Immens CRM Core:
+    - Panoramica: immens-crm-core/index.md
+    - Installazione: immens-crm-core/installazione.md
+    - Configurazione: immens-crm-core/configurazione.md
+  - Immens Integration:
+    - Panoramica: immens-integration/index.md
+    - Installazione: immens-integration/installazione.md
+    - Configurazione: immens-integration/configurazione.md
+  - Immens Keyword Explorer (IKE):
+    - Panoramica: immens-keyword-explorer/index.md
+    - Installazione: immens-keyword-explorer/installazione.md
+    - Configurazione: immens-keyword-explorer/configurazione.md
+  - Immens MCP Fortress:
+    - Panoramica: immens-mcp-fortress/index.md
+    - Installazione: immens-mcp-fortress/installazione.md
+    - Configurazione: immens-mcp-fortress/configurazione.md
+    - API: immens-mcp-fortress/api.md
+    - Sicurezza: immens-mcp-fortress/sicurezza.md
+  - MCP Fortress Pro:
+    - Panoramica: immens-mcp-fortress-pro/index.md
+    - Installazione: immens-mcp-fortress-pro/installazione.md
+    - Configurazione: immens-mcp-fortress-pro/configurazione.md
+  - Primary Source:
+    - Panoramica: primary-source/index.md
+    - Installazione: primary-source/installazione.md
+    - Configurazione: primary-source/configurazione.md
+  - Quick Order:
+    - Panoramica: studio-immens-quick-order/index.md
+    - Installazione: studio-immens-quick-order/installazione.md
+    - Configurazione: studio-immens-quick-order/configurazione.md
+  - Quick Order Pro:
+    - Panoramica: studio-immens-quick-order-pro/index.md
+    - Installazione: studio-immens-quick-order-pro/installazione.md
+    - Configurazione: studio-immens-quick-order-pro/configurazione.md
+  - SIWP Reseller:
+    - Panoramica: siwp-reseller/index.md
+    - Installazione: siwp-reseller/installazione.md
+    - Configurazione: siwp-reseller/configurazione.md
+  - WooPrint Receipts:
+    - Panoramica: si-wooprint-receipts/index.md
+    - Installazione: si-wooprint-receipts/installazione.md
+    - Configurazione: si-wooprint-receipts/configurazione.md
+  - WooPrint Receipts Pro:
+    - Panoramica: si-wooprint-receipts-pro/index.md
+    - Installazione: si-wooprint-receipts-pro/installazione.md
+    - Configurazione: si-wooprint-receipts-pro/configurazione.md
